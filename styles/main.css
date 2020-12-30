@@ -7,6 +7,9 @@
   --text-color-menu: #4a4a4a;
   --text-color-page: #ffffff;
 }
+.body{
+  font-family: "Rubik", sans-serif;
+}
 .header {
   background-color: #ffffff;
   position: fixed;
@@ -33,7 +36,6 @@
 }
 .ppal {
   background-color: var(--background-page);
-  font-family: "Rubik", sans-serif;
   text-transform: capitalize;
   color: var(--text-color-page);
   font-size: 30px;
