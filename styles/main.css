@@ -11,7 +11,8 @@
   font-family: "Rubik", sans-serif;
 }
 .header {
-  background-color: #ffffff;
+  background-color: var(--text-color-page);
+  padding: 10px 0 3px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -28,11 +29,17 @@
 .menu {
   text-transform: uppercase;
   list-style: none;
+  display: inline-block;
   font-size: 16px;
   display: flex;
   justify-content: center;
-  justify-content: space-around;
   align-items: center;
+  padding: 0;
+}
+.menu1, .menu2{
+  text-decoration: none;
+  color: var(--text-color-menu);
+  padding: 10px;
 }
 .ppal {
   background-color: var(--background-page);
